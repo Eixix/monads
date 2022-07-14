@@ -2,8 +2,8 @@
 
 class IntegerWithLogs
 {
-  var $result;
-  var $logs;
+  public int $result;
+  public array $logs;
 
   public function __construct(int $result, array $logs)
   {
@@ -13,7 +13,7 @@ class IntegerWithLogs
 
   public function __toString()
   {
-    json_encode($this->logs);
+    return json_encode($this->logs);
   }
 }
 
