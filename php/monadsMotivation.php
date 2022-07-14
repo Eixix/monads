@@ -35,6 +35,8 @@ class Calculate
   // you may need 1 or 2 helper functions in Calculate
   // you may not alter the methods square or addOne
   // One hint function is way below at line 1000
+  // You need to change the call of the methods below as well. The main thing is, that
+  // the result of the first call gets used in the second call and so on
 }
 
 echo (Calculate::square(2));
